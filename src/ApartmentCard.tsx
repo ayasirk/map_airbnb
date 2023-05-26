@@ -13,12 +13,12 @@ import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 230,
+    maxWidth: 300,
     position: 'relative',
     zIndex: 1001,
   },
   media: {
-    height: 100,
+    height: 170,
   },
   close: {
     position: 'absolute',

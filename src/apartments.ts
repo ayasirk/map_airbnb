@@ -12,7 +12,7 @@ const Apartments = [
     "restrooms_number": 1,
     "floor": 3,
     "floor_count": 14,
-    "rent": 1500
+    "rent": 150000
   },
   {
     "id": 2,

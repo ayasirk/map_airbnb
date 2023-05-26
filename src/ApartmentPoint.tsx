@@ -10,9 +10,11 @@ const styles = makeStyles({
     background: 'white',
     borderRadius: '12px',
     padding: '8px',
-    width: '60px',
+    width: '-webkit-max-content',
     zIndex: 1000,
-    position: 'relative'
+    position: 'relative',
+    fontFamily: 'helvetica',
+    fontSize: '15px'
     // border: 'none'
   }
 })
@@ -21,7 +23,8 @@ const ApartmentPoint = (props: ApartmentPonitProps) => {
   const classes = styles()
   return (
     <div className={classes.root} onClick={props.onClick}>
-      {props.price} $
+      <b>{props.price} $</b>
+
     </div>
   )
 }

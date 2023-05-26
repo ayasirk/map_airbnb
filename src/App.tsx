@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Wrapper apiKey={process.env.REACT_APP_GOOGLE_KEY} render={render}>
-        <Map center={{ lat: 55.753559, lng: 37.609218 }} zoom={11} />
+        <Map center={{ lat: 31.540407004099254, lng: 74.35057679454006 }} zoom={13} />
       </Wrapper>
     </div>
   );
