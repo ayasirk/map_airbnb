@@ -43,6 +43,21 @@ const Apartments = [
     "floor": 2,
     "floor_count": 5,
     "rent": 3000
+  },
+  {
+    "id": 4,
+    "image": "https://storage.yandexcloud.net/apartment-images/07_uvV7gIk.jpg",
+    "area": 40.9,
+    "kitchen_area": null,
+    "address": "academic Volgyn street 8A",
+    "lat": 31.52337715051944,
+    "lng": 74.43722580710343,
+    "rooms_number": 3,
+    "bedrooms_number": 2,
+    "restrooms_number": 1,
+    "floor": 2,
+    "floor_count": 5,
+    "rent": 3000
   }
 ]
 
